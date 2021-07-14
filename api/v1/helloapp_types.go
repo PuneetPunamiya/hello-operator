@@ -25,11 +25,8 @@ import (
 
 // HelloAppSpec defines the desired state of HelloApp
 type HelloAppSpec struct {
-	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
-	// Important: Run "make" to regenerate code after modifying this file
-
-	// Foo is an example field of HelloApp. Edit helloapp_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Image string `json:"image,omitempty"`
+	Size  int32  `json:"size"`
 }
 
 // HelloAppStatus defines the observed state of HelloApp

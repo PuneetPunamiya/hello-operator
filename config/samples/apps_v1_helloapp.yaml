@@ -4,4 +4,5 @@ metadata:
   name: helloapp-sample
 spec:
   # Add fields here
-  foo: bar
+  image: hello-world
+  size: 1
